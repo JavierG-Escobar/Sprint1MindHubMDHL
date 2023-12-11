@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    margin-left: 15rem;
+}
+
+.divimg{
+    position: relative;
+    width: 100%;
+}
+
+div h1{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    z-index: 1;
+    font-size: 55px;
+}
+
+.imgHeader{
+    height: 20rem;
+    width: 85%;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.divLogo{
+    position: relative;
+}
+
+.imgLogo{
+    position: absolute;
+    right: 450px;
+    top: -45px;
+    background-color: black;
+    z-index: 1;
+}
+
+h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 85%;
+    height: 3rem;
+    padding-top: .5rem;
+}
+
+/* Main */
+main{
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+.divMain{
+    position: relative;
+}
+
+.nav{
+    position: absolute;
+    display: inline-block;
+    width: 15rem;
+    line-height: 80px;
+    padding-left: 1rem;
+}    
+
+a{
+    font-size: 25px;
+    color: rgb(82, 82, 240);
+}
+a.page{
+    text-decoration: none;
+    color: black;
+}
+
+article{
+    position: relative;
+    top: 0;
+    left: 250px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+/* About */
+
+.pAbout{
+    width: 65%;
+    margin-bottom: 2rem;
+}
+
+/* Contact */
+
+.divContact{
+    position: relative;
+    top: 0;
+    left: 250px;
+    font-size: 25px;
+    line-height: 50px;
+    padding-top: .5rem;
+}
