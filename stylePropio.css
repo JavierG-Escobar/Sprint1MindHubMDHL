@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/* header */
+header{
+    margin-left: 15rem;
+}
+
+.divimg{
+    position: relative;
+    width: 100%;
+}
+
+h1{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    z-index: 1;
+    font-size: 35px;
+    background-color: white;
+}
+
+.imgHeader{
+    height: 20rem;
+    width: 85%;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.divLogo{
+    position: relative;
+}
+
+.imgLogo{
+    position: absolute;
+    right: 250px;
+    top: -325px;
+    background-color: black;
+    z-index: 1;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(100, 24, 24);
+    color: white;
+    width: 85%;
+    height: 3rem;
+    padding-top: .5rem;
+}
+
+/* Main */
+main{
+    margin-left: 15rem;
+    margin-top: 3rem;
+    border: dotted 1px rgb(100, 24, 24);
+    width: 74%;
+    height: 30rem;
+    background-color: rgba(100, 24, 24, 0.096);
+}
+.divMain{
+    position: relative;
+}
+
+.nav{
+    position: absolute;
+    display: inline-block;
+    width: 15rem;
+    line-height: 80px;
+    padding-left: 1rem;
+}    
+
+a{
+    font-size: 25px;
+    color: rgb(100, 24, 24);
+}
+a.page{
+    text-decoration: none;
+    color: red;
+}
+
+article{
+    position: relative;
+    top: 0;
+    left: 250px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+/* About */
+
+.pAbout{
+    width: 65%;
+    margin-bottom: 2rem;
+}
+
+/* Contact */
+
+.divContact{
+    position: relative;
+    top: 0;
+    left: 250px;
+    font-size: 25px;
+    line-height: 50px;
+    padding-top: .5rem;
+}
